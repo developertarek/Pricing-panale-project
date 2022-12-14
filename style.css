@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(163, 208, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    margin-top: 40px;
+
+}
+
+.panel {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 70%;
+
+    text-transform: uppercase;
+}
+
+.pricing-panel a {
+    text-decoration: none;
+
+}
+
+.pricing-panel ul {
+    list-style: none;
+}
+
+.pricing-panel {
+    border-right: 1px solid rgb(16, 243, 221);
+    padding: 30px;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+
+
+
+}
+
+.pricing-panel:last-child {
+    border: none;
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.pricing-header {
+    font-size: 15px;
+    color: rgb(137, 142, 146);
+    padding: 15px;
+
+}
+
+.pricing-features-item {
+
+    font-size: 14px;
+    color: rgb(29, 157, 237);
+    margin: 15px, 0;
+    padding: 10, 0;
+
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+    border-top: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+    font-size: 32px;
+    font-weight: 700;
+    color: #016ff9;
+    display: block;
+}
+
+.pricing-button {
+    border: 1px solid rgb(34, 153, 237);
+
+
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: hsl(213, 88%, 62%);
+}
+
+.pricing-button-1 {
+    border: 1px solid rgb(34, 153, 237);
+    display: inline-block;
+    padding: 10px 30px;
+    color: beige;
+    border-radius: 10px;
+    background-color: #016ff9;
+}
+
+.pricing-button:hover {
+    background-color: #016ff9;
+    cursor: pointer;
+    color: beige;
+    transition: background-color 200ms ease-in-out;
+
+
+
+    transform: translateY(-0.2em);
+
+
+}
+
+.pricing-button-1:hover {
+
+    cursor: pointer;
+    color: beige;
+    transition: background-color 200ms ease-in-out;
+    transform: translateY(-0.2em);
+
+}
